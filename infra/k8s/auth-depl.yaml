@@ -15,9 +15,7 @@ spec:
       containers:
         - name: auth
           image: veldin/auth
-
 ---
-
 apiVersion: v1
 kind: Service
 metadata:
