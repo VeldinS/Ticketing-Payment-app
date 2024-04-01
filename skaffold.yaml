@@ -8,7 +8,7 @@ build:
   local:
     push: false
   artifacts:
-    - image: veldin/auth
+    - image: rallycoding/auth
       context: auth
       docker:
         dockerfile: Dockerfile
