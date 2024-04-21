@@ -9,8 +9,7 @@ interface UserModel extends mongoose.Model<any> {
     build(attrs: UserAttrs): UserDoc;
 }
 
-interface UserDoc extends mongoose.Docum
-ent {
+interface UserDoc extends mongoose.Document {
     email: string,
     password: string
 }
